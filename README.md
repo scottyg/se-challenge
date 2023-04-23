@@ -38,6 +38,6 @@ Please provide a link to a public git repository containing your completed proje
 - Uses Tailwind CSS for utility css classes
 
 ## Install and Run
-`npm install`
-`npm run dev`
-Visit http://localhost:3000/ in browser.
+- `npm install`
+- `npm run dev`
+- Visit http://localhost:3000/ in browser.
