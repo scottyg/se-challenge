@@ -26,6 +26,7 @@ export default {
     },
     fontSize: {
       'base': '14px',
+      'md': '18px',
     },
     fontFamily: {
       sans: ['"Open Sans"', 'Helvetica', 'Arial', 'Lucida', 'sans-serif'],

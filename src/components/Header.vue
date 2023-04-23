@@ -15,7 +15,7 @@ const pageStore = usePageStore()
         <li v-for="item in navItems" :key="item"
           class="text-white text-base border-b-2 bg-black hover:border-switch-red transition-colors duration-500"
           :class="item == pageStore.getPage ? 'border-switch-red' : 'border-black'">
-          <a :href="'#' + item.toLowerCase()" @click=onClickNav :aria-label=item class="px-4 py-4 block">
+          <a :href="'#' + item.toLowerCase()" @click=onClickNav :aria-label=item class="px-8 py-4 block">
             {{ item }}
           </a>
         </li>
