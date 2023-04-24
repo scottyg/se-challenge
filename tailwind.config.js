@@ -5,12 +5,6 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1440px',
-      xl: '1800px',
-    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -26,7 +20,7 @@ export default {
     },
     fontSize: {
       'base': '14px',
-      'md': '18px',
+      'md': '16px',
     },
     fontFamily: {
       sans: ['"Open Sans"', 'Helvetica', 'Arial', 'Lucida', 'sans-serif'],

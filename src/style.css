@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    .benefit-title{
+        @media screen and (min-width: 1280px) and (max-width: 1535px) {
+            font-size: 12px;
+        }
+    }
+}

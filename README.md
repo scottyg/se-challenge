@@ -30,7 +30,9 @@ Please provide a link to a public git repository containing your completed proje
 1. ✅ Demonstrate Props and State knowledge
 2. ✅ Demonstrate Fetch API and Axios knowledge
 3. ✅ Demonstrate LocalStorage for persistance
-4. ✅ Demonstrate Light and Dark mode styles
+4. ✅ Demonstrate routing using url hash
+5. ✅ Demonstrate nested stylesheet
+6. ✅ Demonstrate Light and Dark mode styles
 
 ### Notes
 - Uses Vite for Vue development environment
