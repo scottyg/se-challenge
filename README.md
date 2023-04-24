@@ -36,7 +36,7 @@ Please provide a link to a public git repository containing your completed proje
 
 ### Notes
 - Uses Vite for Vue development environment
-- Uses Pinia for state management
+- Uses Pinia for store and state management
 - Uses Vue Draggable for Drag and Drop functionality
 - Uses Tailwind CSS for utility css classes
 
