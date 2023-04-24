@@ -3,14 +3,16 @@ import { usePageStore } from '../stores/page'
 import { useAcknowledgeStore } from '../stores/acknowledge'
 import Loading from './Loading.vue'
 import axios from 'axios';
-
+// Load state from store
 const pageStore = usePageStore()
 const acknowledgeStore = useAcknowledgeStore()
 </script>
 
 <template>
   <main class="container mx-auto" role="main">
-    <div v-if="(pageStore.getPage == 'Benefits' && benefits == null) || (pageStore.getPage == 'Safety' && safety == null) || (pageStore.getPage == 'Policies' && policies == null)" class="p-4 flex flex-col items-center gap-4">
+    <div
+      v-if="(pageStore.getPage == 'Benefits' && benefits == null) || (pageStore.getPage == 'Safety' && safety == null) || (pageStore.getPage == 'Policies' && policies == null)"
+      class="p-4 flex flex-col items-center gap-4">
       <Loading />
     </div>
     <div v-if="pageStore.getPage == 'Benefits' && benefits !== null">

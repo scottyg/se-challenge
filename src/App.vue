@@ -3,8 +3,6 @@ import Header from './components/Header.vue'
 import Page from './components/Page.vue'
 import Footer from './components/Footer.vue'
 import { usePageStore } from './stores/page'
-
-const store = usePageStore()
 </script>
 
 <template>
@@ -24,11 +22,11 @@ export default {
   },
   created() {
     // Get current page from hash or show benefits page
-    const store = usePageStore()
+    const pageStore = usePageStore()
     if(location.hash == ""){
-      store.current = 'Benefits'
+      pageStore.current = 'Benefits'
     } else{
-      store.current = location.hash.slice(1).charAt(0).toUpperCase() + location.hash.slice(2)
+      pageStore.current = location.hash.slice(1).charAt(0).toUpperCase() + location.hash.slice(2)
     }
   }
 }

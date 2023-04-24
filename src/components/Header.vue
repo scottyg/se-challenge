@@ -1,5 +1,6 @@
 <script setup>
 import { usePageStore } from '../stores/page'
+// Load state from store
 const pageStore = usePageStore()
 </script>
 

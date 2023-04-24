@@ -1,11 +1,13 @@
 <script setup>
 import { usePageStore } from '../stores/page'
+// Load state from store
 const pageStore = usePageStore()
 </script>
 
 <template>
   <footer class="mt-auto bg-black border-t-8 border-switch-red pt-2 sm:pt-0" role="navigation" aria-label="Footer">
-    <div class="container mx-auto px-4 h-24 flex flex-col-reverse sm:flex-row justify-center sm:justify-between items-center ">
+    <div
+      class="container mx-auto px-4 h-24 flex flex-col-reverse sm:flex-row justify-center sm:justify-between items-center ">
       <div class="text-white text-base">
         Copyright © {{ new Date().getFullYear() }} Switch. All Rights Reserved.
       </div>
