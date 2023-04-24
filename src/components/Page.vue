@@ -17,11 +17,11 @@ const acknowledgeStore = useAcknowledgeStore()
     </div>
     <div v-if="pageStore.getPage == 'Benefits' && benefits !== null">
       <draggable v-model="benefits" group="benefits" @start="drag = true" @end="drag = false" item-key="id"
-        class="p-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+        class="p-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
         <template #item="{ element }">
           <div class="border border-switch-gray-dark bg-white dark:bg-switch-gray-darker cursor-move">
             <div class="bg-switch-red px-4 py-2 text-base text-white font-bold benefit-title">{{ element.title }}</div>
-            <div class="text-base p-4 font-light dark:text-white">{{ element.description }}</div>
+            <div class="text-base px-4 py-5 font-light dark:text-white">{{ element.description }}</div>
           </div>
         </template>
       </draggable>
