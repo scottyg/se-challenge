@@ -64,10 +64,10 @@ export default {
   data() {
     return {
       benefits: null,
-      drag: false,
-      checkedAcknowledge: false,
       safety: null,
       policies: null,
+      drag: false,
+      checkedAcknowledge: false,
     }
   },
   methods: {

@@ -29,7 +29,6 @@ const pageStore = usePageStore()
 export default {
   props: {
     navItems: Array,
-    currentPage: String,
   },
   methods: {
     onClickNav(event) {
